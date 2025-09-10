@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
+        Scanner keyboard = new Scanner(System.in);
+        String name = "홍길동";
+        name = keyboard.nextLine();
+        System.out.println("입력 받은 이름은:" + name);
 
         }
     }
-}
